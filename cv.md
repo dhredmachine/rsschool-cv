@@ -13,3 +13,19 @@
   - funny
 - experience - no
 - I want to know everything new
+
+## Code
+
+`console.log('hello world');`
+
+## Experience
+
+No ;(
+
+## Education
+
+- LPR Medician
+
+## Enlish
+
+- not good (b2)
