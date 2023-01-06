@@ -1,0 +1,533 @@
+html {
+   width: 1440px;
+   margin: 0 auto;
+   box-sizing: border-box;
+   background-color: #EDF2EC;
+}
+
+/* Общие стили */
+
+
+.container {
+   width: 1220px;
+   margin: 0 auto;
+}
+.span-green {
+   color: #499A18;
+}
+.span-orange {
+   color: #E06733;
+}
+.html-white {
+   width: 1440px;
+   margin: 0 auto;
+   background-color: #FFFFFF;
+}
+
+/* Шапка */
+.header {
+   width: 1440px;
+   height: 134px;
+   margin: 0 auto;
+}
+.nav-bar {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+
+   width: 1220px;
+   height: 50px;
+
+   margin: 0 auto;
+   padding: 42px 109px 42px 111px;
+
+   align-items: center;
+   /* position: fixed; */
+}
+.nav-bar-logo img {
+   width: 79.17px;
+   height: 21.04px;
+}
+
+   /* Шапка левая часть */
+
+.nav-bar-menu{
+   width: 453px;
+   height: 50px;
+   text-align: end;
+   margin-left: 157px;
+}
+.nav-bar-menu a {
+   text-decoration: none;
+   color: #010201;
+   font-family: 'Inika';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 16px;
+   line-height: 50px;
+   margin-left: 43px;
+}
+.nav-bar-menu a:first-child {
+   margin-left: 0;
+}
+
+/* Мейн */
+
+/* Секция Welcome */
+/* Общие */
+.main {
+   width: 1440px;
+}
+.welcome {
+   width: 1440px;
+   height: 530px;
+   background-color: #EDF2EC;
+   margin: 0 auto;
+}
+.welcome-section {
+   width: 1222px;
+   height: 407.36px;
+   margin: 0 auto;
+
+   display: grid;
+   grid-template-columns: 449px auto;
+
+   padding: 22px 109px;
+}
+
+/* Картинка */
+
+.welcome-section-leafs img{
+   width: 448.8px;
+   height: 407.36px;
+}
+
+/* Текст */
+
+.welcome-section-text {
+   width: 549px;
+   height: 340px;
+
+   display: grid;
+   grid-template-rows: repeat(3, auto);
+
+   padding-left: 217px;
+}
+.section-text-title {
+   width: 549px;
+   height: 101px;
+
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 45px;
+   line-height: 50px;
+   color: #717171;
+
+   margin-top: 33px;
+   margin-bottom: 42px;
+}
+.section-text-info {
+   width: 525.44px;
+   height: 105px;
+
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 35px;
+   color: #636060;
+
+   margin-bottom: 38px;
+}
+.btn {
+   width: 158px;
+   height: 44px;
+
+   border: 2px solid #E06733;
+   border-radius: 10px;
+
+   color: #000000;
+   margin-top: 38px;
+}
+
+/* Секция About */
+/* Общие */
+
+.about {
+   width: 1440px;
+   height: 666px;
+   background-color: #FFFFFF;
+}
+.about-section {
+   width: 1222px;
+   height: 479px;
+   margin: 0 auto;
+
+   display: grid;
+   grid-template-columns: repeat(2, auto);
+
+   padding: 74px 109px 93px 109px;
+}
+
+/* About текст */
+
+.about-section-text {
+   display: grid;
+   grid-template-rows: repeat(2, auto);
+}
+.section-two-text {
+   width: 605px;
+   height: 208px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 30px;
+   color: #636060;
+}
+.section-two-title {
+   width: 463px;
+   height: 102px;
+
+   font-family: 'Inika';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 40px;
+   line-height: 52px;
+
+   padding-top: 68px;
+   padding-bottom: 40px;
+}
+
+/* About картинка */
+
+.section-two-img {
+   width: 464px;
+   height: 479px;
+   background-image: url(/img/hous.svg);
+   background-size: contain;
+   background-repeat: no-repeat;
+}
+
+/* Секция Service */
+/* Общие */
+
+.service {
+   width: 1440px;
+   height: 1300px;
+   background-color: #EDF2EC;;
+
+   margin: 0 auto;
+}
+
+/* Service шапка */
+
+.sevrice-content {
+   width: 1007px;
+   height: 94px;
+   margin: 0 384px 0 109px; 
+
+   display: grid;
+   grid-template-columns: repeat(2, auto);
+}
+.sevrice-content-title {
+   width: 306px;
+   height: 94px;
+
+   font-family: 'Inika';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 40px;
+   line-height: 52px;
+
+   margin-top: 25px;
+}
+.sevrice-content-btns {
+   width: 559px;
+   height: 50px;
+}
+.btn-service {
+   width: 158px;
+   height: 44px;
+
+   border: 2px solid #E06733;
+   border-radius: 10px;
+
+   color: #000000;
+   margin-top: 58px;
+   margin-right: 25px;
+}
+
+/* Service блоки */
+
+.service-block {
+   width: 1222px;
+   height: 955px;
+   margin: 0 auto;
+
+   display: grid;
+   grid-template-columns: repeat(3, auto);
+   grid-template-rows: repeat(2,auto);
+   grid-gap: 45px;
+   justify-items: end;
+
+   margin-top: 90px;
+}
+.item {
+   width: 380px;
+   height: 450px;
+   border: 1px solid #E3E1D5;
+   border-radius: 0px 0px 20px 20px;   
+   text-align: center;
+}
+.item img {
+   width: 379px;
+   height: 350px;
+
+   margin-bottom: 5px;
+}
+.item h3 {
+   width: 120px;
+   height: 24px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 20px;
+
+   margin: 0 auto;
+   margin-bottom: 10px;
+}
+
+/* Секция Prices */
+/* Общие */
+
+.prices {
+   width: 1440px;
+   height: 560px;
+
+   margin: 0 auto;
+
+   background-color: #FFFFFF;
+}
+.prices-wrapper {
+   width: 1222px;
+   height: 405px;
+   
+   margin: 0 auto;
+   
+   display: grid;
+   grid-template-columns: auto auto;
+   margin: 40px 109px 115px 109px;
+}
+
+/* Wrapper-left */
+
+.wrapper-left-content {
+   width: 332px;
+   height: 391.01px;
+}
+.wrapper-left-text {
+   width: 135px;
+   height: 49px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 48px;
+
+   color: #000000;
+
+   margin-top: 40px;
+}
+.wrapper-left-form {
+   width: 332px;
+   height: 282.01px;
+   margin-top: 60px;
+}
+.wrapper-left-form fieldset {
+   border: 1px solid #E3E1D5;
+   border-radius: 20px;
+   width: 332px;
+   height: 282.01px;
+}
+.wrapper-left-form select {
+   width: 250px;
+   height: 50px;
+   background: #EDF2EC;
+   border-radius: 20px;
+   text-align: left;
+   padding-left: 35px;
+
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   line-height: 20px;
+   color: #000000;
+
+   margin-top: 34px;
+   margin-left: 45px;
+}
+
+/* Wrapper-right */
+
+.wrapper-right-text {
+   text-align: right;
+
+   width: 452px;
+   height: 103px;
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 50px;
+
+   color: #000000;
+   margin-left:430px;
+   margin-top: 40px;
+}
+.btn-price {
+   width: 162px;
+   height: 50px;
+   font-family: 'Inika';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 20px;
+   padding: 2px;
+   line-height: 26px;
+
+   color: #E06733;
+   border: 1px solid #E06733;
+   border-radius: 5px;
+
+   margin-left: 720px;
+   margin-top: 40px;
+}
+.wrapper-right-img {
+   width: 152px;
+   height: 174.99px;
+
+   margin-left: 720px;
+   margin-top: 40px;
+}
+
+/* Contacts секция */
+/* Общие */
+
+.contacts {
+   width: 1440px;
+   height: 550px;
+   background-color: #EDF2EC;;
+}
+.contacts-block {
+   display: grid;
+   grid-template-columns: 2fr 1fr 2fr;
+}
+
+/* block-img */
+
+.block-img {
+   width: 400px;
+   height: 496.99px;
+
+   margin-top: 53px;
+   margin-left: 109px;
+}
+
+/* block-text */
+
+.block-text {
+   width: 195px;
+   height: 51px;
+   font-family: 'Inika';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 40px;
+   line-height: 52px;
+   
+   color: #499A18;
+   
+   margin-top: 60px;
+   margin-left: 53px;
+}
+
+/* block-city */
+
+.block-city select{
+   width: 400px;
+   height: 40px;
+
+   background: #D6E7D2;
+   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+   border-radius: 0px;
+
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 40px;
+
+   letter-spacing: 0.05em;
+
+   color: #717171;
+
+   margin-top: 148px;
+   margin-left: 64px;
+}
+
+/* footer */
+
+.footer {
+   width: 1440px;
+   height: 130px; 
+   background-color: #FFFFFF;
+}
+.footer-content {
+
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   
+   width: 1220px;
+   height: 50px;
+   margin: 0 auto;
+}
+.footer-left {
+   align-self: center;
+}
+.footer-left p{
+   display: inline;
+   padding-right: 15px;
+
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 50px;
+
+   color: #000000;
+}
+
+.footer-mid {
+   align-self: center;
+   text-align: center;
+}
+.footer-mid a{
+   font-family: 'Inter';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 20px;
+   line-height: 50px;
+   text-decoration: none;
+   color: #000000;
+}
+
+.footer-right {
+   padding: 50px 0;
+   /* padding-left: 120px; */
+   text-align: end;
+   align-self: center;
+}
+.footer-right a{
+   margin-left: 30px;
+}
